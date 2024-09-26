@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap'); */
+body
+{
+  /* font-family: "Spartan", sans-serif; */
+  font-family:'Encode Sans Expanded', sans-serif !important;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.register
+{
+  background-image: url(./assets/imgs/light-patten.svg);
+}
+html
+{
+  scroll-behavior: smooth;
+}
